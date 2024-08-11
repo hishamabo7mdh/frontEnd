@@ -1,0 +1,92 @@
+body{
+    direction:ltr;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+nav a  {
+    text-decoration: none;
+}
+.all{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.bakImg{
+    background-image: url('images/backgroundText.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clear{
+    clear: both;
+}
+.bakImg .forntEnd
+{
+    color: aliceblue;
+}
+.forntEnd-front{
+    color: burlywood;
+    margin-left: 25px;
+}
+.ready{
+    color: aliceblue;
+    background-color: burlywood;
+    padding: 70px;
+    margin: 0;
+}
+nav{
+    text-transform: capitalize;
+    background-color: black;
+    padding: 10px 20px;
+
+    display: flex; /* يجعل العناصر داخل الحاوية تتوزع بشكل أفقي */
+    justify-content: space-between; /* توزيع العناصر مع وضعهم على أطراف الحاوية */
+
+    
+}
+a{
+    color: white;
+}
+.left, .right {
+    flex: 1; /* يملأ الفراغ المتاح في الـ nav */
+    text-align: center; /* توسيط النص داخل العناصر */
+}
+
+.left {
+    text-align: left; /* محاذاة النص إلى اليسار */
+    flex: 1;
+}
+
+.right {
+    text-align: right; /* محاذاة النص إلى اليمين */
+    flex: 2;
+}
+
+/* .imcenter{
+    width: 100
+
+    align-items: center;
+    justify-content:center;
+
+} */
+.imcenter{
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+}
+.image
+{
+    width: 280px;
+    height: 180px; 
+    margin: 10px;
+
+}
